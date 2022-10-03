@@ -1,0 +1,14 @@
+﻿<Window x:Class="T2_ej6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:T2_ej6"
+        mc:Ignorable="d"
+        Title="Image Opacity" Height="450" Width="800" Icon="assets/Designcontest-Ecommerce-Business-Approve.ico">
+    <Grid>
+        <Image x:Name="horusImage" HorizontalAlignment="Left" Height="345" Stretch="Fill" Margin="280,30,0,0" VerticalAlignment="Top" Width="215" Source="assets/dios_horus.jpg" Opacity="0.5" MouseEnter="Image_MouseEnter" MouseLeave="Image_MouseLeave"/>
+        <Image x:Name="raImage" HorizontalAlignment="Left" Height="345" Stretch="Fill" Margin="30,30,0,0" VerticalAlignment="Top" Width="215" Source="assets/dios_ra.jpg" Opacity="0.5" MouseEnter="Image_MouseEnter" MouseLeave="Image_MouseLeave"/>
+        <Image x:Name="sethImage" HorizontalAlignment="Left" Height="345" Stretch="Fill" Margin="530,30,0,0" VerticalAlignment="Top" Width="215" Source="assets/dios_seth.jpg" Opacity="0.5" MouseEnter="Image_MouseEnter" MouseLeave="Image_MouseLeave"/>
+    </Grid>
+</Window>
